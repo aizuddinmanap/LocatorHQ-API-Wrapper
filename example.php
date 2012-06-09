@@ -7,7 +7,7 @@ $config = array(
     'username' => ''
   );
 
-$location = new Locationhq();
+$location = new Locationhq($config);
 
 print_r($location->get_result());
 
